@@ -1,6 +1,6 @@
 # Hi,
 
-I'm *Utku Demir*, a software developer from Auckland, New Zealand.
+I'm **Utku Demir**, a software developer from Auckland, New Zealand.
 
 I write Haskell (and sadly, a bunch of other stuff), use free software, and like speculative fiction.
 
@@ -15,8 +15,4 @@ Also, here are some of my online profiles:
 * [Keybase](https://keybase.io/utdemir)
 
 [Movio]: https://movio.co
-
-
-
-
 
