@@ -24,6 +24,8 @@ Hence I wrote this really short snippet to make this faster. Here is a screencas
 Just paste this to your '.zshrc' to have it:
 
 ```bash
+# zsh-sticky-prefix
+
 local zle_sticked=""
 
 zle-line-init() {
@@ -49,4 +51,4 @@ function accept-line {
 zle -N accept-line
 ```
 
-It saved a lot of time for me, maybe it'll be useful to you too. Please send a PR if you make it nicer.
+It saved a lot of time for me, maybe it'll be useful to you too. Please send a PR if you make it nicer. I might make this a proper zsh plugin in future.
