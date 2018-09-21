@@ -49,6 +49,4 @@ function accept-line {
 zle -N accept-line
 ```
 
-It saved a lot of time for me, maybe it'll be useful to you too.
-
-Feel free to send a PR if you make it nicer.
+It saved a lot of time for me, maybe it'll be useful to you too. Please send a PR if you make it nicer.
