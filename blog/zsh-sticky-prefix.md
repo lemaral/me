@@ -1,4 +1,4 @@
-# Save some keystrokes with 'zsh-sticky-prefix'
+# zsh-sticky-prefix
 
 Recently it started to bother me that that I spend a lot of time writing the same command many times just to give it different arguments, eg:
 
