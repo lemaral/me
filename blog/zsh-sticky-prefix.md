@@ -9,17 +9,19 @@ $ git commit -m "did stuff"
 $ git push
 ```
 
-or 
+or
 
 ```bash
 $ kubectl get pod
 $ kubectl get pod somepod
-$ kubectl get pod somepod -o yaml 
+$ kubectl get pod somepod -o yaml
 ```
 
 Hence I wrote this really short snippet to make this faster. Here is a screencast:
 
 ![zsh-sticky-prefix](images/zsh-sticky-prefix.gif)
+
+Just paste this to your '.zshrc' to have it:
 
 ```bash
 local zle_sticked=""
@@ -47,6 +49,6 @@ function accept-line {
 zle -N accept-line
 ```
 
-It saved a lot of time for me, maybe it'll be useful to you.
+It saved a lot of time for me, maybe it'll be useful to you too.
 
 Feel free to send a PR if you make it nicer.
